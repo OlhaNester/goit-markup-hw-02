@@ -1,0 +1,54 @@
+:root {
+  --primary-text-colour: #757575;
+  --title-text-colour: #212121;
+  --accent-colour: #2196f3;
+}
+.body {
+  background-color: #e5e5e5;
+  color: var(--primary-text-colour);
+}
+main-header {
+}
+
+.accent-logo {
+  color: var(--accent-colour);
+}
+
+.logo {
+  color: #000000;
+}
+
+.list {
+  list-style: none;
+}
+
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-colour);
+}
+
+.section-title {
+  color: var(--title-text-colour);
+}
+
+.hero-title {
+  color: #ffffff;
+}
+
+.list-title {
+  color: var(--title-text-colour);
+}
+
+/*цвет лого #2196F3 и #000000 */
+/*основной цвет шапки и тела #212121 */
+/*цвет телефона #757575 */
+/* вторичный цвет #757575  */
+/*белого фона #FFFFFF*/
+/*цвет емайл и телефона в футере rgba(255, 255, 255, 0.6)*/
+/* основной цвет фона #E5E5E5 */
+/* дополнительный цвет фона #F5F4FA */
+/* цвет фона футера #2F303A */
+/* цвет фона хедера #FFFFFF */
