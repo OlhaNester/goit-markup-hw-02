@@ -2,12 +2,19 @@
   --primary-text-colour: #757575;
   --title-text-colour: #212121;
   --accent-colour: #2196f3;
+  --footer-text-colour: #ffffff;
+  --background-buton: #f5f4fa;
+  --primary-background-color: #e5e5e5;
+  --sec-background-color: #f5f4fa;
 }
+
+.header {
+  background-color: #ffffff;
+}
+
 .body {
-  background-color: #e5e5e5;
+  background-color: var(--primary-background-color);
   color: var(--primary-text-colour);
-}
-main-header {
 }
 
 .accent-logo {
@@ -18,15 +25,29 @@ main-header {
   color: #000000;
 }
 
+.logo-footer {
+  color: #ffffff;
+}
+
 .list {
   list-style: none;
 }
+/*.adress .link {
+  color: --primary-text-colour;
+  .adress .link:hover,
+  .adress .link:focus {
+    color: var(--accent-colour);
+  }
+}*/
 
-.site-nav .link {
-  color: #212121;
+.section-team {
+  background-color: var(--sec-background-color);
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
+.link {
+  color: var(--title-text-colour);
+}
+.link:hover,
+.link:focus {
   color: var(--accent-colour);
 }
 
@@ -34,12 +55,46 @@ main-header {
   color: var(--title-text-colour);
 }
 
+.hero {
+  background-color: black;
+}
 .hero-title {
   color: #ffffff;
 }
 
 .list-title {
   color: var(--title-text-colour);
+}
+
+.footer {
+  background-color: black;
+}
+
+.adress {
+  color: #ffffff;
+}
+
+.email-tel {
+  color: rgba(255, 255, 255, 0.6);
+}
+.email-tel:hoover,
+.email-tel:focus {
+  color: var(--accent-colour);
+}
+
+.button {
+  color: var(--title-text-colour);
+  background-color: var(--primary-background-color);
+}
+.button:hover,
+.button:focus {
+  color: #ffffff;
+  background-color: var(--accent-colour);
+}
+
+.hero-button {
+  color: #ffffff;
+  background-color: var(--accent-colour);
 }
 
 /*цвет лого #2196F3 и #000000 */
