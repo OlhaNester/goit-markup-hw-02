@@ -4,6 +4,10 @@
     <meta charset="utf-8" />
     <meta name="description" content="Изучение основ HTML5 для новичков" />
     <title>PageMaket</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
 
@@ -16,7 +20,7 @@
         >
 
         <ul class="site-nav list">
-          <li><a href="./index.html" class="link">Студия</a></li>
+          <li><a href="./index.html" class="link-current">Студия</a></li>
           <li><a href="./portfolio.html" class="link">Портфолио</a></li>
           <li><a href="" class="link">Контакты</a></li>
         </ul>
@@ -24,15 +28,17 @@
 
       <ul class="adress list">
         <li>
-          <a href="mailto:info@devstudio.com" class="email"
+          <a href="mailto:info@devstudio.com" class="email-tel"
             >info@devstudio.com</a
           >
         </li>
         <li>
-          <a href="tel:+38096-111-11-11" class="phone">+38 (096) 111-11-11</a>
+          <a href="tel:+38096-111-11-11" class="email-tel"
+            >+38 (096) 111-11-11</a
+          >
         </li>
       </ul>
-    </header>
+    </header class="header">
     <main>
       <!--Герой-->
       <section class="hero">
@@ -59,7 +65,7 @@
           </li>
           <li>
             <h3 class="list-title">Планирование</h3>
-            <p>
+            <p >
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
@@ -113,7 +119,7 @@
               alt="Фото мальчика"
               width="270"
             />
-            <p>Product Designer</p>
+            <p class="text">Product Designer</p>
           </li>
           <li>
             <h3 class="list-title">Ольга Репина</h3>
@@ -122,7 +128,7 @@
               alt="Фото девочки"
               width="270"
             />
-            <p>Frontend Developer</p>
+            <p class="text">Frontend Developer</p>
           </li>
           <li>
             <h3 class="list-title">Николай Тарасов</h3>
@@ -131,7 +137,7 @@
               alt="Фото мальчика"
               width="270"
             />
-            <p>Marketing</p>
+            <p class="text">Marketing</p>
           </li>
           <li>
             <h3 class="list-title">Михаил Ермаков</h3>
@@ -140,16 +146,14 @@
               alt="Фото мальчика"
               width="270"
             />
-            <p>UI Designer</p>
+            <p class="text">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
     <!--Футер-->
     <footer class="footer">
-      <a href="/" class="logo-footer"
-        ><span class="accent-logo">Web</span>Studio</a
-      >
+      <a href="/" class="logo"><span class="accent-logo">Web</span>Studio</a>
       <address class="adress">
         г. Киев, пр-т Леси Украинки, 26 <br />
         <a href="mailto:info@example.com" class="email-tel">info@example.com</a>

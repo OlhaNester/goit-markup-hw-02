@@ -15,6 +15,11 @@
 .body {
   background-color: var(--primary-background-color);
   color: var(--primary-text-colour);
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  line-height: 1.71;
 }
 
 .accent-logo {
@@ -23,36 +28,58 @@
 
 .logo {
   color: #000000;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
 }
 
-.logo-footer {
+.footer .logo {
   color: #ffffff;
+  font-family: Raleway, sans-serif;
 }
 
 .list {
   list-style: none;
 }
-/*.adress .link {
-  color: --primary-text-colour;
-  .adress .link:hover,
-  .adress .link:focus {
-    color: var(--accent-colour);
-  }
-}*/
+
+.header .email-tel {
+  color: var(--primary-text-colour);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.header .email-tel:hover,
+.header .email-tel:focus {
+  color: var(--accent-colour);
+}
 
 .section-team {
   background-color: var(--sec-background-color);
 }
 .link {
-  color: var(--title-text-colour);
+  color: var(--title-text-colour)
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .link:hover,
 .link:focus {
   color: var(--accent-colour);
 }
-
+.link-current {
+  color: var(--accent-colour);
+}
 .section-title {
   color: var(--title-text-colour);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 .hero {
@@ -60,11 +87,33 @@
 }
 .hero-title {
   color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
+
 
 .list-title {
   color: var(--title-text-colour);
+ font-weight: 700;
+ line-height: 1.2;
 }
+
+.section-team .list-title {
+  color: var(--title-text-colour);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.section-team .text{
+font-size: 16px;
+line-height: 1.19;
+}
+
 
 .footer {
   background-color: black;
@@ -74,7 +123,7 @@
   color: #ffffff;
 }
 
-.email-tel {
+.footer .email-tel {
   color: rgba(255, 255, 255, 0.6);
 }
 .email-tel:hoover,
@@ -85,6 +134,7 @@
 .button {
   color: var(--title-text-colour);
   background-color: var(--primary-background-color);
+  font-family: inherit;
 }
 .button:hover,
 .button:focus {
@@ -95,6 +145,25 @@
 .hero-button {
   color: #ffffff;
   background-color: var(--accent-colour);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.name-work {
+font-size: 16px;
+line-height: 1.87;
+
+}
+.name-project" {
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
 }
 
 /*цвет лого #2196F3 и #000000 */
