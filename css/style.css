@@ -5,10 +5,11 @@
   --footer-text-colour: #ffffff;
   --background-buton: #f5f4fa;
   --primary-background-color: #e5e5e5;
-  --sec-background-color: #f5f4fa;
+  --sec-background-color: #F5F4FA;
+  --background-footer-hero: 2F303A;
 }
 
-header .header {
+.header {
   background-color: #ffffff;
 }
 
@@ -66,7 +67,7 @@ footer .logo {
   color: var(--title-text-colour)
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decorating: none;
  }
@@ -87,7 +88,7 @@ footer .logo {
 }
 
 .hero {
-  background-color: black;
+  background-color:var(--background-footer-hero);
 }
 .hero-title {
   color: #ffffff;
@@ -120,7 +121,7 @@ line-height: 1.19;
 
 
 .footer {
-  background-color: black;
+  background-color: var(--background-footer-hero);
 }
 
 .adress {
