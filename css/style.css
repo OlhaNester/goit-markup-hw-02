@@ -8,7 +8,7 @@
   --sec-background-color: #f5f4fa;
 }
 
-.header {
+header .header {
   background-color: #ffffff;
 }
 
@@ -20,6 +20,7 @@
   font-weight: 400;
   letter-spacing: 0.03em;
   line-height: 1.71;
+  font-style: normal;
 }
 
 .accent-logo {
@@ -35,10 +36,11 @@
   line-height: 1.2;
 }
 
-.footer .logo {
+footer .logo {
   color: #ffffff;
   font-family: Raleway, sans-serif;
 }
+
 
 .list {
   list-style: none;
@@ -66,7 +68,9 @@
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-}
+  text-decorating: none;
+ }
+
 .link:hover,
 .link:focus {
   color: var(--accent-colour);
@@ -121,11 +125,11 @@ line-height: 1.19;
 
 .adress {
   color: #ffffff;
-}
+  }
 
 .footer .email-tel {
   color: rgba(255, 255, 255, 0.6);
-}
+  }
 .email-tel:hoover,
 .email-tel:focus {
   color: var(--accent-colour);
@@ -159,7 +163,7 @@ font-size: 16px;
 line-height: 1.87;
 
 }
-.name-project" {
+.name-project {
 font-weight: bold;
 font-size: 18px;
 line-height: 2;
