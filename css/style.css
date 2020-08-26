@@ -47,7 +47,6 @@
 .header .email-tel {
   color: var(--primary-text-colour);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
@@ -63,8 +62,7 @@
 .link {
   color: var(--title-text-colour)
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .link:hover,
@@ -73,6 +71,9 @@
 }
 .link-current {
   color: var(--accent-colour);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .section-title {
   color: var(--title-text-colour);
@@ -97,9 +98,10 @@
 
 
 .list-title {
-  color: var(--title-text-colour);
+ color: var(--title-text-colour);
+ font-size: 14px;
  font-weight: 700;
- line-height: 1.2;
+ line-height: 1.14;
 }
 
 .section-team .list-title {
@@ -145,7 +147,7 @@ line-height: 1.19;
 .hero-button {
   color: #ffffff;
   background-color: var(--accent-colour);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   display: flex;
