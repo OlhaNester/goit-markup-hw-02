@@ -6,6 +6,7 @@
   --background-buton: #f5f4fa;
   --primary-background-color: #e5e5e5;
   --sec-background-color: #f5f4fa;
+  --background-footer-hero: #2F303A;
 }
 
 .header {
@@ -84,7 +85,7 @@
 }
 
 .hero {
-  background-color: black;
+  background-color:var(--background-footer-hero);
 }
 .hero-title {
   color: #ffffff;
@@ -118,7 +119,7 @@ line-height: 1.19;
 
 
 .footer {
-  background-color: black;
+  background-color: var(--background-footer-hero);
 }
 
 .adress {
@@ -161,7 +162,7 @@ font-size: 16px;
 line-height: 1.87;
 
 }
-.name-project" {
+.name-project {
 font-weight: bold;
 font-size: 18px;
 line-height: 2;
