@@ -6,11 +6,12 @@
   --background-buton: #f5f4fa;
   --primary-background-color: #e5e5e5;
   --sec-background-color: #f5f4fa;
-  --background-footer-hero: #2F303A;
+  --background-header: #ffffff;
+  --background-footer-hero: #2f303a;
 }
 
 .header {
-  background-color: #ffffff;
+  background-color: var(#ffffff);
 }
 
 .body {
@@ -21,6 +22,7 @@
   font-weight: 400;
   letter-spacing: 0.03em;
   line-height: 1.71;
+  font-style: normal;
 }
 
 .accent-logo {
@@ -36,7 +38,7 @@
   line-height: 1.2;
 }
 
-.footer .logo {
+footer .logo {
   color: #ffffff;
   font-family: Raleway, sans-serif;
 }
@@ -61,11 +63,12 @@
   background-color: var(--sec-background-color);
 }
 .link {
-  color: var(--title-text-colour)
+  color: var(--title-text-colour);
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
 .link:hover,
 .link:focus {
   color: var(--accent-colour);
@@ -85,7 +88,7 @@
 }
 
 .hero {
-  background-color:var(--background-footer-hero);
+  background-color: var(--background-footer-hero);
 }
 .hero-title {
   color: #ffffff;
@@ -97,12 +100,11 @@
   text-transform: uppercase;
 }
 
-
 .list-title {
- color: var(--title-text-colour);
- font-size: 14px;
- font-weight: 700;
- line-height: 1.14;
+  color: var(--title-text-colour);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
 }
 
 .section-team .list-title {
@@ -112,11 +114,10 @@
   line-height: 1.19;
 }
 
-.section-team .text{
-font-size: 16px;
-line-height: 1.19;
+.section-team .text {
+  font-size: 16px;
+  line-height: 1.19;
 }
-
 
 .footer {
   background-color: var(--background-footer-hero);
@@ -124,12 +125,13 @@ line-height: 1.19;
 
 .adress {
   color: #ffffff;
+  font-style: normal;
 }
 
 .footer .email-tel {
   color: rgba(255, 255, 255, 0.6);
 }
-.email-tel:hoover,
+.email-tel:hover,
 .email-tel:focus {
   color: var(--accent-colour);
 }
@@ -137,6 +139,8 @@ line-height: 1.19;
 .button {
   color: var(--title-text-colour);
   background-color: var(--primary-background-color);
+  font-size: 16px;
+  line-height: 1.62;
   font-family: inherit;
 }
 .button:hover,
@@ -158,15 +162,14 @@ line-height: 1.19;
 }
 
 .name-work {
-font-size: 16px;
-line-height: 1.87;
-
+  font-size: 16px;
+  line-height: 1.87;
 }
 .name-project {
-font-weight: bold;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 /*цвет лого #2196F3 и #000000 */
