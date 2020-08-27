@@ -11,7 +11,7 @@
 }
 
 .header {
-  background-color: var(#ffffff);
+  background-color: var(--background-header);
 }
 
 .body {
@@ -36,6 +36,7 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  text-decoration: none;
 }
 
 footer .logo {
@@ -52,6 +53,7 @@ footer .logo {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .header .email-tel:hover,
@@ -67,6 +69,7 @@ footer .logo {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .link:hover,
@@ -78,6 +81,7 @@ footer .logo {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .section-title {
   color: var(--title-text-colour);
@@ -100,11 +104,12 @@ footer .logo {
   text-transform: uppercase;
 }
 
-.list-title {
+.section-feature .list-title {
   color: var(--title-text-colour);
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .section-team .list-title {
@@ -130,6 +135,7 @@ footer .logo {
 
 .footer .email-tel {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 .email-tel:hover,
 .email-tel:focus {
@@ -155,9 +161,6 @@ footer .logo {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
 }
 
