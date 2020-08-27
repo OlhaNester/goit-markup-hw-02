@@ -162,6 +162,7 @@ footer .logo {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  font-family: inherit;
 }
 
 .name-work {
